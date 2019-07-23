@@ -34,8 +34,6 @@
 		29C28DF32070A5EF002C19F7 /* latex.c in Sources */ = {isa = PBXBuildFile; fileRef = 29C28DAE2070A5EF002C19F7 /* latex.c */; };
 		29C28DF42070A5EF002C19F7 /* houdini_href_e.c in Sources */ = {isa = PBXBuildFile; fileRef = 29C28DAF2070A5EF002C19F7 /* houdini_href_e.c */; };
 		29C28DF52070A5EF002C19F7 /* syntax_extension.c in Sources */ = {isa = PBXBuildFile; fileRef = 29C28DB02070A5EF002C19F7 /* syntax_extension.c */; };
-		29C28DF62070A5EF002C19F7 /* case_fold_switch.inc in Sources */ = {isa = PBXBuildFile; fileRef = 29C28DB12070A5EF002C19F7 /* case_fold_switch.inc */; };
-		29C28DF72070A5EF002C19F7 /* entities.inc in Sources */ = {isa = PBXBuildFile; fileRef = 29C28DB22070A5EF002C19F7 /* entities.inc */; };
 		29C28DF82070A5EF002C19F7 /* ext_scanners.c in Sources */ = {isa = PBXBuildFile; fileRef = 29C28DB32070A5EF002C19F7 /* ext_scanners.c */; };
 		29C28DF92070A5EF002C19F7 /* tagfilter.c in Sources */ = {isa = PBXBuildFile; fileRef = 29C28DB42070A5EF002C19F7 /* tagfilter.c */; };
 		29C28DFA2070A5EF002C19F7 /* houdini_html_e.c in Sources */ = {isa = PBXBuildFile; fileRef = 29C28DB52070A5EF002C19F7 /* houdini_html_e.c */; };
@@ -97,6 +95,92 @@
 		A163201B2235F6A3005FC8E0 /* wikilink.h in Headers */ = {isa = PBXBuildFile; fileRef = A16320192235F6A3005FC8E0 /* wikilink.h */; };
 		A163201C2235F6A3005FC8E0 /* wikilink.c in Sources */ = {isa = PBXBuildFile; fileRef = A163201A2235F6A3005FC8E0 /* wikilink.c */; };
 		A178A48E222FD4240064C487 /* emoji.c in Sources */ = {isa = PBXBuildFile; fileRef = A178A48D222FD4240064C487 /* emoji.c */; };
+		DB5227BF22E0BAEC00D97125 /* ext_scanners.c in Sources */ = {isa = PBXBuildFile; fileRef = 29C28DB32070A5EF002C19F7 /* ext_scanners.c */; };
+		DB5227C022E0BAEC00D97125 /* xml.c in Sources */ = {isa = PBXBuildFile; fileRef = 29C28DA32070A5EF002C19F7 /* xml.c */; };
+		DB5227C122E0BAEC00D97125 /* ListElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29C286D6207087CF002C19F7 /* ListElement.swift */; };
+		DB5227C222E0BAEC00D97125 /* arena.c in Sources */ = {isa = PBXBuildFile; fileRef = 29C28DDB2070A5EF002C19F7 /* arena.c */; };
+		DB5227C322E0BAEC00D97125 /* autolink.c in Sources */ = {isa = PBXBuildFile; fileRef = 29C28DA92070A5EF002C19F7 /* autolink.c */; };
+		DB5227C422E0BAEC00D97125 /* latex.c in Sources */ = {isa = PBXBuildFile; fileRef = 29C28DAE2070A5EF002C19F7 /* latex.c */; };
+		DB5227C522E0BAEC00D97125 /* man.c in Sources */ = {isa = PBXBuildFile; fileRef = 29C28DA72070A5EF002C19F7 /* man.c */; };
+		DB5227C622E0BAEC00D97125 /* references.c in Sources */ = {isa = PBXBuildFile; fileRef = 29C28DD82070A5EF002C19F7 /* references.c */; };
+		DB5227C722E0BAEC00D97125 /* emoji.c in Sources */ = {isa = PBXBuildFile; fileRef = A178A48D222FD4240064C487 /* emoji.c */; };
+		DB5227C822E0BAEC00D97125 /* cmark_ctype.c in Sources */ = {isa = PBXBuildFile; fileRef = 29C28DAB2070A5EF002C19F7 /* cmark_ctype.c */; };
+		DB5227C922E0BAEC00D97125 /* Node+Elements.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29C286E4207087CF002C19F7 /* Node+Elements.swift */; };
+		DB5227CA22E0BAEC00D97125 /* scanners.c in Sources */ = {isa = PBXBuildFile; fileRef = 29C28DE12070A5EF002C19F7 /* scanners.c */; };
+		DB5227CB22E0BAEC00D97125 /* node.c in Sources */ = {isa = PBXBuildFile; fileRef = 29C28DE62070A5EF002C19F7 /* node.c */; };
+		DB5227CC22E0BAEC00D97125 /* inlines.c in Sources */ = {isa = PBXBuildFile; fileRef = 29C28DAD2070A5EF002C19F7 /* inlines.c */; };
+		DB5227CD22E0BAEC00D97125 /* linked_list.c in Sources */ = {isa = PBXBuildFile; fileRef = 29C28DDC2070A5EF002C19F7 /* linked_list.c */; };
+		DB5227CE22E0BAEC00D97125 /* buffer.c in Sources */ = {isa = PBXBuildFile; fileRef = 29C28DA82070A5EF002C19F7 /* buffer.c */; };
+		DB5227CF22E0BAEC00D97125 /* registry.c in Sources */ = {isa = PBXBuildFile; fileRef = 29C28DE52070A5EF002C19F7 /* registry.c */; };
+		DB5227D022E0BAEC00D97125 /* commonmark.c in Sources */ = {isa = PBXBuildFile; fileRef = 29C28DDD2070A5EF002C19F7 /* commonmark.c */; };
+		DB5227D122E0BAEC00D97125 /* plugin.c in Sources */ = {isa = PBXBuildFile; fileRef = 29C28DE02070A5EF002C19F7 /* plugin.c */; };
+		DB5227D222E0BAEC00D97125 /* cmark.c in Sources */ = {isa = PBXBuildFile; fileRef = 29C28DA52070A5EF002C19F7 /* cmark.c */; };
+		DB5227D322E0BAEC00D97125 /* houdini_html_e.c in Sources */ = {isa = PBXBuildFile; fileRef = 29C28DB52070A5EF002C19F7 /* houdini_html_e.c */; };
+		DB5227D422E0BAEC00D97125 /* TableRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29C286D9207087CF002C19F7 /* TableRow.swift */; };
+		DB5227D522E0BAEC00D97125 /* tagfilter.c in Sources */ = {isa = PBXBuildFile; fileRef = 29C28DB42070A5EF002C19F7 /* tagfilter.c */; };
+		DB5227D622E0BAEC00D97125 /* render.c in Sources */ = {isa = PBXBuildFile; fileRef = 29C28DD92070A5EF002C19F7 /* render.c */; };
+		DB5227D722E0BAEC00D97125 /* houdini_html_u.c in Sources */ = {isa = PBXBuildFile; fileRef = 29C28DE42070A5EF002C19F7 /* houdini_html_u.c */; };
+		DB5227D822E0BAEC00D97125 /* table.c in Sources */ = {isa = PBXBuildFile; fileRef = 29C28DAC2070A5EF002C19F7 /* table.c */; };
+		DB5227D922E0BAEC00D97125 /* html.c in Sources */ = {isa = PBXBuildFile; fileRef = 29C28DDF2070A5EF002C19F7 /* html.c */; };
+		DB5227DB22E0BAEC00D97125 /* Block+TextElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29C286E8207087CF002C19F7 /* Block+TextElement.swift */; };
+		DB5227DD22E0BAEC00D97125 /* Inline+TextElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29C286E6207087CF002C19F7 /* Inline+TextElement.swift */; };
+		DB5227DE22E0BAEC00D97125 /* Block+TableRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29C286D8207087CF002C19F7 /* Block+TableRow.swift */; };
+		DB5227DF22E0BAEC00D97125 /* iterator.c in Sources */ = {isa = PBXBuildFile; fileRef = 29C28DDA2070A5EF002C19F7 /* iterator.c */; };
+		DB5227E022E0BAEC00D97125 /* TextElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29C286D7207087CF002C19F7 /* TextElement.swift */; };
+		DB5227E122E0BAEC00D97125 /* map.c in Sources */ = {isa = PBXBuildFile; fileRef = 29C28DDE2070A5EF002C19F7 /* map.c */; };
+		DB5227E222E0BAEC00D97125 /* syntax_extension.c in Sources */ = {isa = PBXBuildFile; fileRef = 29C28DB02070A5EF002C19F7 /* syntax_extension.c */; };
+		DB5227E322E0BAEC00D97125 /* ASTOperations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29C286DB207087CF002C19F7 /* ASTOperations.swift */; };
+		DB5227E422E0BAEC00D97125 /* mention.c in Sources */ = {isa = PBXBuildFile; fileRef = 29C28E2F2070A6B9002C19F7 /* mention.c */; };
+		DB5227E522E0BAEC00D97125 /* wikilink.c in Sources */ = {isa = PBXBuildFile; fileRef = A163201A2235F6A3005FC8E0 /* wikilink.c */; };
+		DB5227E622E0BAEC00D97125 /* houdini_href_e.c in Sources */ = {isa = PBXBuildFile; fileRef = 29C28DAF2070A5EF002C19F7 /* houdini_href_e.c */; };
+		DB5227E722E0BAEC00D97125 /* Element.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29C286DA207087CF002C19F7 /* Element.swift */; };
+		DB5227E822E0BAEC00D97125 /* SwiftAST.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29C286EA207087CF002C19F7 /* SwiftAST.swift */; };
+		DB5227E922E0BAEC00D97125 /* plaintext.c in Sources */ = {isa = PBXBuildFile; fileRef = 29C28DD62070A5EF002C19F7 /* plaintext.c */; };
+		DB5227EA22E0BAEC00D97125 /* Block+ListElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29C286E7207087CF002C19F7 /* Block+ListElement.swift */; };
+		DB5227EB22E0BAEC00D97125 /* blocks.c in Sources */ = {isa = PBXBuildFile; fileRef = 29C28DAA2070A5EF002C19F7 /* blocks.c */; };
+		DB5227EC22E0BAEC00D97125 /* core-extensions.c in Sources */ = {isa = PBXBuildFile; fileRef = 29C28DE72070A5EF002C19F7 /* core-extensions.c */; };
+		DB5227ED22E0BAEC00D97125 /* Node.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29C286E9207087CF002C19F7 /* Node.swift */; };
+		DB5227EE22E0BAEC00D97125 /* checkbox.c in Sources */ = {isa = PBXBuildFile; fileRef = 29C28E302070A6B9002C19F7 /* checkbox.c */; };
+		DB5227EF22E0BAEC00D97125 /* footnotes.c in Sources */ = {isa = PBXBuildFile; fileRef = 29C28DE32070A5EF002C19F7 /* footnotes.c */; };
+		DB5227F022E0BAEC00D97125 /* utf8.c in Sources */ = {isa = PBXBuildFile; fileRef = 29C28DD72070A5EF002C19F7 /* utf8.c */; };
+		DB5227F122E0BAEC00D97125 /* strikethrough.c in Sources */ = {isa = PBXBuildFile; fileRef = 29C28DA42070A5EF002C19F7 /* strikethrough.c */; };
+		DB5227F422E0BAEC00D97125 /* node.h in Headers */ = {isa = PBXBuildFile; fileRef = 29C28DC22070A5EF002C19F7 /* node.h */; };
+		DB5227F522E0BAEC00D97125 /* plugin.h in Headers */ = {isa = PBXBuildFile; fileRef = 29C28DBA2070A5EF002C19F7 /* plugin.h */; };
+		DB5227F622E0BAEC00D97125 /* cmark_export.h in Headers */ = {isa = PBXBuildFile; fileRef = 29C28DB82070A5EF002C19F7 /* cmark_export.h */; };
+		DB5227F722E0BAEC00D97125 /* tagfilter.h in Headers */ = {isa = PBXBuildFile; fileRef = 29C28DCF2070A5EF002C19F7 /* tagfilter.h */; };
+		DB5227F822E0BAEC00D97125 /* syntax_extension.h in Headers */ = {isa = PBXBuildFile; fileRef = 29C28DCC2070A5EF002C19F7 /* syntax_extension.h */; };
+		DB5227F922E0BAEC00D97125 /* cmark.h in Headers */ = {isa = PBXBuildFile; fileRef = 29C28DC92070A5EF002C19F7 /* cmark.h */; };
+		DB5227FA22E0BAEC00D97125 /* cmark_extension_api.h in Headers */ = {isa = PBXBuildFile; fileRef = 29C28DCB2070A5EF002C19F7 /* cmark_extension_api.h */; };
+		DB5227FB22E0BAEC00D97125 /* ext_scanners.h in Headers */ = {isa = PBXBuildFile; fileRef = 29C28DD02070A5EF002C19F7 /* ext_scanners.h */; };
+		DB5227FC22E0BAEC00D97125 /* libcmark_gfm.h in Headers */ = {isa = PBXBuildFile; fileRef = 29C28DC12070A5EF002C19F7 /* libcmark_gfm.h */; };
+		DB5227FD22E0BAEC00D97125 /* checkbox.h in Headers */ = {isa = PBXBuildFile; fileRef = 29C28E2B2070A6B1002C19F7 /* checkbox.h */; };
+		DB5227FE22E0BAEC00D97125 /* html.h in Headers */ = {isa = PBXBuildFile; fileRef = 29C28DB92070A5EF002C19F7 /* html.h */; };
+		DB5227FF22E0BAEC00D97125 /* parser.h in Headers */ = {isa = PBXBuildFile; fileRef = 29C28DBF2070A5EF002C19F7 /* parser.h */; };
+		DB52280022E0BAEC00D97125 /* map.h in Headers */ = {isa = PBXBuildFile; fileRef = 29C28DBB2070A5EF002C19F7 /* map.h */; };
+		DB52280122E0BAEC00D97125 /* cmark-gfm-swift.h in Headers */ = {isa = PBXBuildFile; fileRef = 29C286E5207087CF002C19F7 /* cmark-gfm-swift.h */; };
+		DB52280222E0BAEC00D97125 /* cmark_version.h in Headers */ = {isa = PBXBuildFile; fileRef = 29C28DC52070A5EF002C19F7 /* cmark_version.h */; };
+		DB52280322E0BAEC00D97125 /* cmarkextensions_export.h in Headers */ = {isa = PBXBuildFile; fileRef = 29C28DB72070A5EF002C19F7 /* cmarkextensions_export.h */; };
+		DB52280422E0BAEC00D97125 /* registry.h in Headers */ = {isa = PBXBuildFile; fileRef = 29C28DC42070A5EF002C19F7 /* registry.h */; };
+		DB52280522E0BAEC00D97125 /* core-extensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 29C28DC32070A5EF002C19F7 /* core-extensions.h */; };
+		DB52280622E0BAEC00D97125 /* wikilink.h in Headers */ = {isa = PBXBuildFile; fileRef = A16320192235F6A3005FC8E0 /* wikilink.h */; };
+		DB52280722E0BAEC00D97125 /* table.h in Headers */ = {isa = PBXBuildFile; fileRef = 29C28DCE2070A5EF002C19F7 /* table.h */; };
+		DB52280822E0BAEC00D97125 /* emoji_list.h in Headers */ = {isa = PBXBuildFile; fileRef = A14D7F372230781400856121 /* emoji_list.h */; };
+		DB52280922E0BAEC00D97125 /* chunk.h in Headers */ = {isa = PBXBuildFile; fileRef = 29C28DBD2070A5EF002C19F7 /* chunk.h */; };
+		DB52280A22E0BAEC00D97125 /* config.h in Headers */ = {isa = PBXBuildFile; fileRef = 29C28DBC2070A5EF002C19F7 /* config.h */; };
+		DB52280B22E0BAEC00D97125 /* references.h in Headers */ = {isa = PBXBuildFile; fileRef = 29C28DD42070A5EF002C19F7 /* references.h */; };
+		DB52280C22E0BAEC00D97125 /* inlines.h in Headers */ = {isa = PBXBuildFile; fileRef = 29C28DCD2070A5EF002C19F7 /* inlines.h */; };
+		DB52280D22E0BAEC00D97125 /* mention.h in Headers */ = {isa = PBXBuildFile; fileRef = 29C28E2C2070A6B2002C19F7 /* mention.h */; };
+		DB52280E22E0BAEC00D97125 /* footnotes.h in Headers */ = {isa = PBXBuildFile; fileRef = 29C28DBE2070A5EF002C19F7 /* footnotes.h */; };
+		DB52280F22E0BAEC00D97125 /* strikethrough.h in Headers */ = {isa = PBXBuildFile; fileRef = 29C28DCA2070A5EF002C19F7 /* strikethrough.h */; };
+		DB52281022E0BAEC00D97125 /* cmark_ctype.h in Headers */ = {isa = PBXBuildFile; fileRef = 29C28DC72070A5EF002C19F7 /* cmark_ctype.h */; };
+		DB52281122E0BAEC00D97125 /* scanners.h in Headers */ = {isa = PBXBuildFile; fileRef = 29C28DC02070A5EF002C19F7 /* scanners.h */; };
+		DB52281222E0BAEC00D97125 /* utf8.h in Headers */ = {isa = PBXBuildFile; fileRef = 29C28DD32070A5EF002C19F7 /* utf8.h */; };
+		DB52281322E0BAEC00D97125 /* iterator.h in Headers */ = {isa = PBXBuildFile; fileRef = 29C28DD22070A5EF002C19F7 /* iterator.h */; };
+		DB52281422E0BAEC00D97125 /* autolink.h in Headers */ = {isa = PBXBuildFile; fileRef = 29C28DC62070A5EF002C19F7 /* autolink.h */; };
+		DB52281522E0BAEC00D97125 /* buffer.h in Headers */ = {isa = PBXBuildFile; fileRef = 29C28DC82070A5EF002C19F7 /* buffer.h */; };
+		DB52281622E0BAEC00D97125 /* render.h in Headers */ = {isa = PBXBuildFile; fileRef = 29C28DD52070A5EF002C19F7 /* render.h */; };
+		DB52281722E0BAEC00D97125 /* houdini.h in Headers */ = {isa = PBXBuildFile; fileRef = 29C28DD12070A5EF002C19F7 /* houdini.h */; };
+		DB52281922E0BAEC00D97125 /* scanners.re in Resources */ = {isa = PBXBuildFile; fileRef = 29C28DA62070A5EF002C19F7 /* scanners.re */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -205,6 +289,8 @@
 		A163201A2235F6A3005FC8E0 /* wikilink.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = wikilink.c; sourceTree = "<group>"; };
 		A178A48C222FD3EE0064C487 /* emoji.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = emoji.h; sourceTree = "<group>"; };
 		A178A48D222FD4240064C487 /* emoji.c */ = {isa = PBXFileReference; indentWidth = 4; lastKnownFileType = sourcecode.c.c; path = emoji.c; sourceTree = "<group>"; tabWidth = 4; };
+		DB52281D22E0BAEC00D97125 /* cmark_gfm_swift_macOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = cmark_gfm_swift_macOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB52281E22E0BAED00D97125 /* cmark-gfm-swift copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "cmark-gfm-swift copy-Info.plist"; path = "/Users/orion/Desktop/Apps/_Tests/WikiKit/Dependencies/cmark-gfm-swift/cmark-gfm-swift copy-Info.plist"; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -223,6 +309,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		DB5227F222E0BAEC00D97125 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -232,6 +325,7 @@
 				29C286D5207087CF002C19F7 /* Source */,
 				29C28E382070A6F4002C19F7 /* cmark_gfm_swiftTests */,
 				2911C5622070879600732441 /* Products */,
+				DB52281E22E0BAED00D97125 /* cmark-gfm-swift copy-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -240,6 +334,7 @@
 			children = (
 				2911C5612070879600732441 /* cmark_gfm_swift.framework */,
 				29C28E372070A6F4002C19F7 /* cmark_gfm_swiftTests.xctest */,
+				DB52281D22E0BAEC00D97125 /* cmark_gfm_swift_macOS.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -413,6 +508,49 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		DB5227F322E0BAEC00D97125 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB5227F422E0BAEC00D97125 /* node.h in Headers */,
+				DB5227F522E0BAEC00D97125 /* plugin.h in Headers */,
+				DB5227F622E0BAEC00D97125 /* cmark_export.h in Headers */,
+				DB5227F722E0BAEC00D97125 /* tagfilter.h in Headers */,
+				DB5227F822E0BAEC00D97125 /* syntax_extension.h in Headers */,
+				DB5227F922E0BAEC00D97125 /* cmark.h in Headers */,
+				DB5227FA22E0BAEC00D97125 /* cmark_extension_api.h in Headers */,
+				DB5227FB22E0BAEC00D97125 /* ext_scanners.h in Headers */,
+				DB5227FC22E0BAEC00D97125 /* libcmark_gfm.h in Headers */,
+				DB5227FD22E0BAEC00D97125 /* checkbox.h in Headers */,
+				DB5227FE22E0BAEC00D97125 /* html.h in Headers */,
+				DB5227FF22E0BAEC00D97125 /* parser.h in Headers */,
+				DB52280022E0BAEC00D97125 /* map.h in Headers */,
+				DB52280122E0BAEC00D97125 /* cmark-gfm-swift.h in Headers */,
+				DB52280222E0BAEC00D97125 /* cmark_version.h in Headers */,
+				DB52280322E0BAEC00D97125 /* cmarkextensions_export.h in Headers */,
+				DB52280422E0BAEC00D97125 /* registry.h in Headers */,
+				DB52280522E0BAEC00D97125 /* core-extensions.h in Headers */,
+				DB52280622E0BAEC00D97125 /* wikilink.h in Headers */,
+				DB52280722E0BAEC00D97125 /* table.h in Headers */,
+				DB52280822E0BAEC00D97125 /* emoji_list.h in Headers */,
+				DB52280922E0BAEC00D97125 /* chunk.h in Headers */,
+				DB52280A22E0BAEC00D97125 /* config.h in Headers */,
+				DB52280B22E0BAEC00D97125 /* references.h in Headers */,
+				DB52280C22E0BAEC00D97125 /* inlines.h in Headers */,
+				DB52280D22E0BAEC00D97125 /* mention.h in Headers */,
+				DB52280E22E0BAEC00D97125 /* footnotes.h in Headers */,
+				DB52280F22E0BAEC00D97125 /* strikethrough.h in Headers */,
+				DB52281022E0BAEC00D97125 /* cmark_ctype.h in Headers */,
+				DB52281122E0BAEC00D97125 /* scanners.h in Headers */,
+				DB52281222E0BAEC00D97125 /* utf8.h in Headers */,
+				DB52281322E0BAEC00D97125 /* iterator.h in Headers */,
+				DB52281422E0BAEC00D97125 /* autolink.h in Headers */,
+				DB52281522E0BAEC00D97125 /* buffer.h in Headers */,
+				DB52281622E0BAEC00D97125 /* render.h in Headers */,
+				DB52281722E0BAEC00D97125 /* houdini.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
@@ -452,6 +590,24 @@
 			productReference = 29C28E372070A6F4002C19F7 /* cmark_gfm_swiftTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		DB5227BD22E0BAEC00D97125 /* cmark-gfm-swift_macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB52281A22E0BAEC00D97125 /* Build configuration list for PBXNativeTarget "cmark-gfm-swift_macOS" */;
+			buildPhases = (
+				DB5227BE22E0BAEC00D97125 /* Sources */,
+				DB5227F222E0BAEC00D97125 /* Frameworks */,
+				DB5227F322E0BAEC00D97125 /* Headers */,
+				DB52281822E0BAEC00D97125 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "cmark-gfm-swift_macOS";
+			productName = "cmark-gfm-swift";
+			productReference = DB52281D22E0BAEC00D97125 /* cmark_gfm_swift_macOS.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -465,12 +621,15 @@
 					2911C5602070879600732441 = {
 						CreatedOnToolsVersion = 9.2;
 						LastSwiftMigration = 1020;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 					29C28E362070A6F4002C19F7 = {
 						CreatedOnToolsVersion = 9.2;
 						LastSwiftMigration = 1020;
 						ProvisioningStyle = Automatic;
+					};
+					DB5227BD22E0BAEC00D97125 = {
+						ProvisioningStyle = Manual;
 					};
 				};
 			};
@@ -488,6 +647,7 @@
 			projectRoot = "";
 			targets = (
 				2911C5602070879600732441 /* cmark-gfm-swift */,
+				DB5227BD22E0BAEC00D97125 /* cmark-gfm-swift_macOS */,
 				29C28E362070A6F4002C19F7 /* cmark_gfm_swiftTests */,
 			);
 		};
@@ -506,6 +666,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB52281822E0BAEC00D97125 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB52281922E0BAEC00D97125 /* scanners.re in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -543,9 +711,7 @@
 				29C28E272070A5EF002C19F7 /* houdini_html_u.c in Sources */,
 				29C28DF12070A5EF002C19F7 /* table.c in Sources */,
 				29C28E232070A5EF002C19F7 /* html.c in Sources */,
-				29C28DF72070A5EF002C19F7 /* entities.inc in Sources */,
 				29C286FB207087CF002C19F7 /* Block+TextElement.swift in Sources */,
-				29C28DF62070A5EF002C19F7 /* case_fold_switch.inc in Sources */,
 				29C286F9207087CF002C19F7 /* Inline+TextElement.swift in Sources */,
 				29C286ED207087CF002C19F7 /* Block+TableRow.swift in Sources */,
 				29C28E1E2070A5EF002C19F7 /* iterator.c in Sources */,
@@ -575,6 +741,62 @@
 			buildActionMask = 2147483647;
 			files = (
 				29C28E432070A70F002C19F7 /* Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB5227BE22E0BAEC00D97125 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB5227BF22E0BAEC00D97125 /* ext_scanners.c in Sources */,
+				DB5227C022E0BAEC00D97125 /* xml.c in Sources */,
+				DB5227C122E0BAEC00D97125 /* ListElement.swift in Sources */,
+				DB5227C222E0BAEC00D97125 /* arena.c in Sources */,
+				DB5227C322E0BAEC00D97125 /* autolink.c in Sources */,
+				DB5227C422E0BAEC00D97125 /* latex.c in Sources */,
+				DB5227C522E0BAEC00D97125 /* man.c in Sources */,
+				DB5227C622E0BAEC00D97125 /* references.c in Sources */,
+				DB5227C722E0BAEC00D97125 /* emoji.c in Sources */,
+				DB5227C822E0BAEC00D97125 /* cmark_ctype.c in Sources */,
+				DB5227C922E0BAEC00D97125 /* Node+Elements.swift in Sources */,
+				DB5227CA22E0BAEC00D97125 /* scanners.c in Sources */,
+				DB5227CB22E0BAEC00D97125 /* node.c in Sources */,
+				DB5227CC22E0BAEC00D97125 /* inlines.c in Sources */,
+				DB5227CD22E0BAEC00D97125 /* linked_list.c in Sources */,
+				DB5227CE22E0BAEC00D97125 /* buffer.c in Sources */,
+				DB5227CF22E0BAEC00D97125 /* registry.c in Sources */,
+				DB5227D022E0BAEC00D97125 /* commonmark.c in Sources */,
+				DB5227D122E0BAEC00D97125 /* plugin.c in Sources */,
+				DB5227D222E0BAEC00D97125 /* cmark.c in Sources */,
+				DB5227D322E0BAEC00D97125 /* houdini_html_e.c in Sources */,
+				DB5227D422E0BAEC00D97125 /* TableRow.swift in Sources */,
+				DB5227D522E0BAEC00D97125 /* tagfilter.c in Sources */,
+				DB5227D622E0BAEC00D97125 /* render.c in Sources */,
+				DB5227D722E0BAEC00D97125 /* houdini_html_u.c in Sources */,
+				DB5227D822E0BAEC00D97125 /* table.c in Sources */,
+				DB5227D922E0BAEC00D97125 /* html.c in Sources */,
+				DB5227DB22E0BAEC00D97125 /* Block+TextElement.swift in Sources */,
+				DB5227DD22E0BAEC00D97125 /* Inline+TextElement.swift in Sources */,
+				DB5227DE22E0BAEC00D97125 /* Block+TableRow.swift in Sources */,
+				DB5227DF22E0BAEC00D97125 /* iterator.c in Sources */,
+				DB5227E022E0BAEC00D97125 /* TextElement.swift in Sources */,
+				DB5227E122E0BAEC00D97125 /* map.c in Sources */,
+				DB5227E222E0BAEC00D97125 /* syntax_extension.c in Sources */,
+				DB5227E322E0BAEC00D97125 /* ASTOperations.swift in Sources */,
+				DB5227E422E0BAEC00D97125 /* mention.c in Sources */,
+				DB5227E522E0BAEC00D97125 /* wikilink.c in Sources */,
+				DB5227E622E0BAEC00D97125 /* houdini_href_e.c in Sources */,
+				DB5227E722E0BAEC00D97125 /* Element.swift in Sources */,
+				DB5227E822E0BAEC00D97125 /* SwiftAST.swift in Sources */,
+				DB5227E922E0BAEC00D97125 /* plaintext.c in Sources */,
+				DB5227EA22E0BAEC00D97125 /* Block+ListElement.swift in Sources */,
+				DB5227EB22E0BAEC00D97125 /* blocks.c in Sources */,
+				DB5227EC22E0BAEC00D97125 /* core-extensions.c in Sources */,
+				DB5227ED22E0BAEC00D97125 /* Node.swift in Sources */,
+				DB5227EE22E0BAEC00D97125 /* checkbox.c in Sources */,
+				DB5227EF22E0BAEC00D97125 /* footnotes.c in Sources */,
+				DB5227F022E0BAEC00D97125 /* utf8.c in Sources */,
+				DB5227F122E0BAEC00D97125 /* strikethrough.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -711,9 +933,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = 523C4DWBTH;
+				DEVELOPMENT_TEAM = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -722,6 +944,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.whoisryannystrom.cmark-gfm-swift";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
 				SWIFT_INCLUDE_PATHS = "$(SRCROOT)/Source/cmark_gfm";
 				SWIFT_VERSION = 5.0;
@@ -733,9 +956,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = 523C4DWBTH;
+				DEVELOPMENT_TEAM = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -744,6 +967,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.whoisryannystrom.cmark-gfm-swift";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
 				SWIFT_INCLUDE_PATHS = "$(SRCROOT)/Source/cmark_gfm";
 				SWIFT_VERSION = 5.0;
@@ -779,6 +1003,54 @@
 			};
 			name = Release;
 		};
+		DB52281B22E0BAEC00D97125 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Manual;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Source/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.whoisryannystrom.cmark-gfm-swift";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_INCLUDE_PATHS = "$(SRCROOT)/Source/cmark_gfm";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DB52281C22E0BAEC00D97125 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Manual;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Source/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.whoisryannystrom.cmark-gfm-swift";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_INCLUDE_PATHS = "$(SRCROOT)/Source/cmark_gfm";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -805,6 +1077,15 @@
 			buildConfigurations = (
 				29C28E402070A6F4002C19F7 /* Debug */,
 				29C28E412070A6F4002C19F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB52281A22E0BAEC00D97125 /* Build configuration list for PBXNativeTarget "cmark-gfm-swift_macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB52281B22E0BAEC00D97125 /* Debug */,
+				DB52281C22E0BAEC00D97125 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
